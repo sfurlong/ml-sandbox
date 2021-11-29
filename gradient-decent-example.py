@@ -1,4 +1,9 @@
-# Making the imports
+#############################################
+# Linear Regression using Gradient Descent.
+# from blog post: https://towardsdatascience.com/linear-regression-using-gradient-descent-97a6c8700931
+# Code at Git: https://github.com/chasinginfinity/ml-from-scratch/tree/master/02%20Linear%20Regression%20using%20Gradient%20Descent
+#############################################
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -38,6 +43,5 @@ Y_pred2 = m*X + b
 print("m: ", m)
 print("c: ", b)
 
-#plt.scatter(X, Y)
-plt.plot([min(X), max(X)], [min(Y_pred), max(Y_pred)], color='blue') # predicted
+plt.plot([min(X), max(X)], [min(Y_pred), max(Y_pred)], color='red') # predicted
 plt.show()

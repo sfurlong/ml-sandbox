@@ -1,1 +1,1 @@
-jupyter notebook --debug
+./venv/bin/jupyter notebook --debug

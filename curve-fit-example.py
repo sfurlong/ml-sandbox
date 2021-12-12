@@ -38,6 +38,7 @@ x, y = data[:, 4], data[:, -1]
 # curve fit
 popt, _ = curve_fit(objective_linear, x, y)
 
+
 # summarize the parameter values
 a, b = popt
 print('y = %.5f * x + %.5f' % (a, b))
